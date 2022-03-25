@@ -151,10 +151,7 @@ namespace Ejercicicio03
             }
             else
             {
-                //producto = null;
-                //DescripcionTextBox.Clear();
-                //CantidadTextBox.Clear();
-                //PrecioTextBox.Clear();
+            
             }
         }
     }

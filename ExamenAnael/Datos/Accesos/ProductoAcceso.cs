@@ -91,56 +91,5 @@ namespace Datos.Accesos
             }
             return producto;
         }
-
-        //public bool ModificarProducto(Producto producto)
-        //{
-        //    bool modifico = false;
-        //    try
-        //    {
-        //        string sql = "UPDATE producto SET Codigo = @Codigo, Descripcion = @Descripcion, " +
-        //                     "Precio = @Precio, Existencia = @Existencia, Imagen = @Imagen WHERE Codigo = @Codigo;";
-
-        //        conn = new MySqlConnection(cadena);
-        //        conn.Open();
-
-        //        cmd = new MySqlCommand(sql, conn);
-
-        //        cmd.Parameters.AddWithValue("@Codigo", producto.Codigo);
-        //        cmd.Parameters.AddWithValue("@Descripcion", producto.Descripcion);
-        //        cmd.Parameters.AddWithValue("@Precio", producto.Precio);
-        //        cmd.Parameters.AddWithValue("@Existencia", producto.Existencia);
-        //        //cmd.Parameters.AddWithValue("@Imagen", producto.Imagen);
-        //        cmd.ExecuteNonQuery();
-        //        modifico = true;
-        //        conn.Close();
-        //    }
-        //    catch (Exception)
-        //    {
-        //    }
-        //    return modifico;
-        //}
-        //public bool EliminarProducto(string codigo)
-        //{
-        //    bool elimino = false;
-        //    try
-        //    {
-        //        string sql = "DELETE FROM producto WHERE Codigo = @Codigo;";
-
-        //        conn = new MySqlConnection(cadena);
-        //        conn.Open();
-
-        //        cmd = new MySqlCommand(sql, conn);
-
-        //        cmd.Parameters.AddWithValue("@Codigo", codigo);
-
-        //        cmd.ExecuteNonQuery();
-        //        elimino = true;
-        //        conn.Close();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //    }
-        //    return elimino;
-        //}
     }
 }
